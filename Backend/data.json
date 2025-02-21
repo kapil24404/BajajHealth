@@ -1,0 +1,39 @@
+{
+  "exampleA": {
+    "request": {
+      "data": ["M", "1", "334", "4", "B"]
+    },
+    "response": {
+      "is_success": true,
+      "user_id": "john_doe_17091999",
+      "email": "john@xyz.com",
+      "roll_number": "ABCD123",
+      "numbers": ["1", "334", "4"],
+      "alphabets": ["M", "B"],
+      "highest_alphabet": ["M"]
+    }
+  },
+  "exampleB": {
+    "request": {
+      "data": ["2", "4", "5", "92"]
+    },
+    "response": {
+      "is_success": true,
+      "user_id": "john_doe_17091999",
+      "email": "john@xyz.com",
+      "roll_number": "ABCD123",
+      "numbers": ["2", "4", "5", "92"],
+      "alphabets": [],
+      "highest_alphabet": []
+    }
+  },
+  "exampleC": {
+    "request": {
+      "data": []
+    },
+    "response": {
+      "is_success": false,
+      "message": "Invalid input. 'data' field must be an array."
+    }
+  }
+}
